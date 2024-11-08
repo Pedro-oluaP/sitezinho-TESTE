@@ -1,0 +1,118 @@
+body { 
+    line-height: 1.6; 
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 0;
+    background-color: #020d1e;
+    color: white;
+}
+
+/**/
+
+header { 
+    background: #50b7f5; 
+    color: white; 
+    padding-top: 30px; 
+    min-height: 70px; 
+    border-bottom: #e8491d 3px solid; 
+}
+#CT-0{
+    display: flex;
+    align-items: center;
+    width: 90%
+}
+#I-2{
+    padding-left: 5%;
+}
+
+header a { 
+    color: #ffffff; 
+    text-decoration: none; 
+    text-transform: uppercase; 
+    font-size: 16px; 
+}
+header ul { 
+    padding: 0; 
+    list-style: none; 
+}
+header li { 
+    display: inline; 
+    padding: 0 20px 0 20px; 
+}
+header #branding { 
+    float: left; 
+}
+header #branding h1 { 
+    margin: 0; 
+}
+header nav { 
+    float: right; 
+    margin-top: 10px; 
+}
+header .highlight, header .current a { 
+    color: #e8491d; 
+    font-weight: bold; 
+}
+header a:hover { 
+    color: #ffffff; 
+    font-weight: bold; 
+}
+
+h2{
+    color: #50b7f5;
+}
+
+p{
+    width: 90%; 
+}
+
+/**/
+
+
+.container { 
+    width: 80%; 
+    margin: auto; 
+    overflow: hidden; 
+}
+
+#titulo { /**/
+    color: white; 
+    background: url('showcase.jpg') no-repeat 0 -400px; 
+    text-align: center; 
+    padding-top: 100px; 
+    min-height: 400px; 
+}
+#titulo h1 { 
+    font-size: 55px; 
+    line-height: 1.2em; 
+}
+
+#texto { /**/
+    padding: 15px; 
+}
+#texto p { 
+    text-align: justify; 
+}
+
+/**/
+
+#Baner{
+    border-radius: 20px;
+    height:250px;
+    width: 500px; 
+}
+
+#Logo{
+    height: 50px;
+    width: 50px;
+    padding: 20px;
+}
+
+footer{
+    text-align: right;
+}
+
+/**/
+
+
+/* Texto */
